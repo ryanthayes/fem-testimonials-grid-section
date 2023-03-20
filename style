@@ -1,0 +1,56 @@
+/* define custom variables */
+.root {
+  
+  --clr-neutral-100: hsl(0, 0, 100%);
+  --clr-neutral-300: hsl(0, 0%, 81%);
+  --clr-neutral-400: hsl(210, 46%, 95%);
+
+  --clr-primary-400: hsl(263, 55%, 52%);
+  --clr-primary-600: hsl(217, 19%, 35%);
+  --clr-primary-800: hsl(219, 29%, 14%);
+
+  --fs-300: 0.5rem;
+  --fs-400: 0.8125rem;
+  --fs-500: 1rem;
+  --fs-600: 1.25rem;
+  --fs-700: 2rem;
+
+  --fw-normal: 500;
+  --fw-semi-bold: 600;
+
+  --padding1: 0.5rem;
+  --padding2: 1rem;
+}
+
+
+/* makes sizing simpler */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* remove default spacing */
+/* force styling of type through styling, rather than elements */
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+/* min body height */
+
+body {
+  min-height: 100vh;
+}
+
+/* responsive images/videos */
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
