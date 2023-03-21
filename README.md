@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution](https://github.com/ryanthayes/fem-testimonials-grid-section)
+- [Live URL](https://ryanthayes.github.io/fem-testimonials-grid-section)
 
 ## My process
 
@@ -108,7 +108,7 @@ This was my first real practice with grids. I need to do some more projects to r
 
 ### Useful resources
 
-- [Learn CSS Grid the easy way](https://www.youtube.com/watch?v=rg7Fvvl3taU) - I lucked out that Kevin Powell just happened to use this same project when teaching CSS Grids. I had already completed the HTML and basic styling, I then got stuck on grids when I searched YouTube. I have been using his tutorials as my "go to" resource for learning CSS. Besides his clear and concise teaching, I like how he defines CSS custom properties from the start based off teh design and style guide. It really does simplify things later on. I also like how he approaches doing even small projects with an eye to them possibly becoming bigger projects in the future. I could do some of these smaller front end mentor projects with simpler code, but I want to practice like I am going to be working on bigger projects in the future.
+[Learn CSS Grid the easy way](https://www.youtube.com/watch?v=rg7Fvvl3taU) - I lucked out that Kevin Powell just happened to use this same project when teaching CSS Grids. I had already completed the HTML and basic styling, I then got stuck on grids when I searched YouTube. I have been using his tutorials as my "go to" resource for learning CSS. Besides his clear and concise teaching, I like how he defines CSS custom properties from the start based off teh design and style guide. It really does simplify things later on. I also like how he approaches doing even small projects with an eye to them possibly becoming bigger projects in the future. I could do some of these smaller front end mentor projects with simpler code, but I want to practice like I am going to be working on bigger projects in the future.
 
 ## Author
 
