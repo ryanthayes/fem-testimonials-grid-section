@@ -1,0 +1,139 @@
+/* define custom variables */
+:root {
+  
+  --clr-neutral-100: hsl(0, 0%, 100%); /* white */
+  --clr-neutral-300: hsl(0, 0%, 81%); /* light gray */
+  --clr-neutral-300-alpha50: hsl(0, 0%, 81%, 0.5); /* light gray alpha 50%*/
+  --clr-neutral-300-alpha70: hsl(0, 0%, 81%, 0.7); /* light gray alpha 70%*/
+  --clr-neutral-400: hsl(200, 60%, 1%); /* light grayish blue */
+
+  --clr-primary-400: hsl(263, 55%, 52%); /* moderate violet */
+  --clr-primary-600: hsl(217, 19%, 35%); /* very dark grayish blue */
+  --clr-primary-600-alpha50: hsl(217, 19%, 35%, 0.5); /* very dark grayish blue alpha 50%*/
+  --clr-primary-600-alpha70: hsl(217, 19%, 35%, 0.7); /* very dark grayish blue alpha 70% */
+  --clr-primary-800: hsl(219, 29%, 14%); /* very dark blackish blue */
+
+  --fs-300: 0.5rem;
+  --fs-400: 0.8125rem;
+  --fs-500: 1rem;
+  --fs-600: 1.25rem;
+  --fs-700: 2rem;
+
+  --fw-normal: 500;
+  --fw-semi-bold: 600;
+
+  --padding1: 1rem;
+  --padding2: 2rem;
+  --padding3: 3rem;
+}
+
+/* makes sizing simpler */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* remove default spacing */
+/* force styling of type through styling, rather than elements */
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+/* min body height */
+
+body {
+  min-height: 100vh;
+}
+
+/* responsive images/videos */
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-style: var(--fs-400);
+  font-weight: var(--fw-normal);
+  line-height: 1.5;
+}
+
+.testimonial-grid {
+  
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+
+  border-radius: 0.5em;
+  padding: var(--padding3);
+}
+
+.testimonial:nth-child(1) {
+  background-color: var(--clr-primary-400);
+}
+.testimonial:nth-child(2) {
+  background-color: var(--clr-primary-600);
+}
+
+.testimonial:nth-child(3),
+.testimonial:nth-child(5) {
+  background-color: var(--clr-neutral-100);
+}
+.testimonial:nth-child(3) .testimonial__name,
+.testimonial:nth-child(3) .testimonial__quote,
+.testimonial:nth-child(5) .testimonial__name,
+.testimonial:nth-child(5) .testimonial__quote {
+  color: var(--clr-primary-600);
+}
+.testimonial:nth-child(3) .testimonial__position,
+.testimonial:nth-child(5) .testimonial__position {
+  color: var(--clr-primary-600-alpha50);
+}
+.testimonial:nth-child(3) .testimonial__text,
+.testimonial:nth-child(5) .testimonial__text {
+  color: var(--clr-primary-600-alpha70);
+}
+
+.testimonial:nth-child(4) {
+  background-color: var(--clr-primary-800);
+}
+
+
+
+.testimonial__header {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+  line-height: 1.2;
+}
+
+.testimonial__image {
+  border-radius: 50%;
+}
+.testimonial__name {
+  color: var(--clr-neutral-300);
+}
+.testimonial__position {
+  color: var(--clr-neutral-300-alpha50);
+}
+.testimonial__quote {
+  font-size: var(--fs-700);
+  font-weight: var(--fw-semi-bold);
+  line-height: 1.1;
+  color: var(--clr-neutral-100);
+}
+.testimonial__text {
+  color: var(--clr-neutral-300-alpha70);
+  font-size: var(--fs-600);
+}
